@@ -5,18 +5,18 @@ p,li,h1 {
 p {
   color: white;
   width: 700px;
-  font-size: 22px;    
+  font-size: 22px;
   line-height: 2;
   letter-spacing: 1px;
-  
+
 }
 
 h1 {
   font-size: 70px;
-font-family: "Tenali Ramakrishna";
+font-family: "'Butterfly Kids', cursive;";
   text-align: center;
   margin: 0;
-  padding: 20px 0;    
+  padding: 20px 0;
   color: Bisque;
   text-shadow: 3px 3px 1px black;
 }

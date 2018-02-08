@@ -2,24 +2,23 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/lesego.jpg') {
-      myImage.setAttribute ('src','images/lesego2.jpg');
+    if(mySrc === 'images/lesego4.jpg') {
+      myImage.setAttribute ('src','images/lesego3.jpg');
     } else {
-      myImage.setAttribute ('src','images/lesego.jpg');
+      myImage.setAttribute ('src','images/lesego4.jpg');
     }
 }
-
-
-var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/firefox-icon.png') {
-      myImage.setAttribute ('src','images/firefox2.png');
+    if(mySrc === 'images/lesego4.jpg') {
+      myImage.setAttribute ('src','images/lesego3.jpg');
     } else {
-      myImage.setAttribute ('src','images/firefox-icon.png');
+      myImage.setAttribute ('src','images/lesego4.jpg');
     }
 }
+
+
 //User name code
 var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
