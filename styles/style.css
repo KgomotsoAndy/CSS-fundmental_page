@@ -1,53 +1,27 @@
-p,li,h1 {
-  color: white;
-}
-
-p {
-  color: white;
-  width: 700px;
-  font-size: 22px;
-  line-height: 2;
-  letter-spacing: 1px;
-
-}
-
-h1 {
-  font-size: 70px;
-font-family: "'Butterfly Kids', cursive;";
-  text-align: center;
-  margin: 0;
-  padding: 20px 0;
-  color: Bisque;
-  text-shadow: 3px 3px 1px black;
-}
-
-html {
-  background-color: #ff8fa6;
-}
+/* Marking up a letter */
 
 body {
-  width: 700px;
-  margin: 0 auto;
-  background-color: #5e0243;
-  padding: 0 20px 20px 20px;
-  border: 6px solid black;
-}
-
-img {
-  display: block;
+  max-width: 800px;
   margin: 0 auto;
 }
 
-#button{
-  background-color:#ff8fa6;
-  width:80px;
-  padding:20px;
-  margin: 0 auto;
-  border-radius: 20px;
+.receiver-column {
+  text-align: right;
 }
 
 
-#button:hover{
-  background-color:white;
-  cursor: pointer;
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+p,ul,ol,dl,address {
+  font-size: 1.1em;
+}
+
+p, li, dd, dt, address {
+  line-height: 1.5em;
 }
